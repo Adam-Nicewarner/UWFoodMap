@@ -1,0 +1,42 @@
+[
+ {
+  "name": "Citra",
+  "summary": "A beautiful, delicious and calming boba tea spot. The atmosphere is relaxing, the tea amazing, and the staff kind. What's not to like?",
+  "star": 10,
+  "coordinates": "47.663821339426995, -122.3128988185872",
+  "phoneFormatted": "(206) 327-9012",
+  "address": "4730 University Way NE #105, Seattle, WA 98105",
+  "category": "Chinese",
+  "price": "$$"
+ },
+ {
+  "name": "Memo's Mexican",
+  "summary": "The best calories to dollar ratio on the ave. Memos will leave you full for 5 dollars, with some left over for tomorrow. Food's pretty good too.",
+  "star": 7,
+  "coordinates": "47.664315031065904, -122.31326147232829",
+  "phoneFormatted": "(206) 729-5071",
+  "address": "4743 University Way NE, Seattle, WA 98105",
+  "category": "Mexican",
+  "price": "$"
+ },
+ {
+  "name": "Chili's South Indian Cuisine",
+  "summary": "While a touch expensive, Chili's has some great Indian food, both the spice-lovers and the intolerant can find something good here. I recommend the butter chicken.",
+  "star": 9,
+  "coordinates": "47.658988791371065, -122.31305707431565",
+  "phoneFormatted": "(206) 633-1458",
+  "address": "4220 University Way NE, Seattle, WA 98105",
+  "category": "Indian",
+  "price": "$$$"
+ },
+ {
+  "name": "University Teriyaki and Bakery",
+  "summary": "Great chinese place. The fried rice is good, it's proximity to the dorms is a plus, and they have a great atmosphere. No complaints.",
+  "star": 8,
+  "coordinates": "47.65719278959604, -122.3129952489449",
+  "phoneFormatted": "(206) 632-5688",
+  "address": "4108 University Way NE, Seattle, WA 98105",
+  "category": null,
+  "price": "$$"
+ }
+]
