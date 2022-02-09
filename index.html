@@ -39,10 +39,8 @@
         async function geojsonFetch() {
 
           let response, stores;
-          response = await fetch('assets/stores.json');
+          response = await fetch('assets/restTest.json');
           stores = await response.json()
-          geo_stores = GeoJSON.parse(stores, {Point: 'Coordinates'});
-          console.log(geo_stores);
 
           /**
            * Assign a unique id to each store. You'll use this `id`
@@ -144,11 +142,15 @@
                   link.href = '#';
                   link.className = 'title';
                   link.id = `link-${store.properties.id}`;
-                  link.innerHTML = `${store.properties.address}`;
+                  link.innerHTML = `${store.properties.name}`;
+                  let righter = document.createElement("a");
+                  righter.innerHTML = store.properties.category + " ||price: " + store.properties.price;
+                  righter.classList.add("rightlist");
+                  link.appendChild(righter);
 
                   /* Add details to the individual listing. */
                   const details = listing.appendChild(document.createElement('div'));
-                  details.innerHTML = `${store.properties.city}`;
+                  details.innerHTML = `${store.properties.summary}`;
                   if (store.properties.phone) {
                       details.innerHTML += ` &middot; ${store.properties.phoneFormatted}`;
                   }
@@ -198,7 +200,7 @@
                   })
                   .setLngLat(currentFeature.geometry.coordinates)
                   .setHTML(
-                      `<h3>Sweetgreen</h3><h4>${currentFeature.properties.address}</h4>`
+                      `<h3>${currentFeature.properties.name}</h3><h4>${currentFeature.properties.address}</h4>`
                   )
                   .addTo(map);
           }

@@ -10,6 +10,12 @@ body {
   box-sizing: border-box;
 }
 
+.rightlist {
+  position: absolute;
+  right: 5px;
+  text-align: right;
+}
+
 .sidebar {
   position: absolute;
   width: 33.3333%;

@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "name": "restaurants",
+  "features": [
+  { "type": "Feature", "properties": { "name": "Citra", "summary": "A beautiful, delicious and calming boba tea spot. The atmosphere is relaxing, the tea amazing, and the staff kind. What's not to like?", "star": 10, "phoneFormatted": "(206) 327-9012", "address": "4730 University Way NE #105, Seattle, WA 98105", "category": "Chinese", "price": "$$" }, 
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.3128988185872, 47.663821339426995]
+  } },
+  { "type": "Feature", "properties": { "name": "Memo's Mexican", "summary": "The best calories to dollar ratio on the ave. Memos will leave you full for 5 dollars, with some left over for tomorrow. Food's pretty good too.", "star": 7, "phoneFormatted": "(206) 729-5071", "address": "4743 University Way NE, Seattle, WA 98105", "category": "Mexican", "price": "$" },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [-122.31326147232829, 47.664315031065904]
+   } },
+  { "type": "Feature", "properties": { "name": "Chili's South Indian Cuisine", "summary": "While a touch expensive, Chili's has some great Indian food, both the spice-lovers and the intolerant can find something good here. I recommend the butter chicken.", "star": 9, "phoneFormatted": "(206) 633-1458", "address": "4220 University Way NE, Seattle, WA 98105", "category": "Indian", "price": "$$$" }, 
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.31305707431565, 47.658988791371065]
+  } },
+  { "type": "Feature", "properties": { "name": "University Teriyaki and Bakery", "summary": "Great chinese place. The fried rice is good, it's proximity to the dorms is a plus, and they have a great atmosphere. No complaints.", "star": 8, "phoneFormatted": "(206) 632-5688", "address": "4108 University Way NE, Seattle, WA 98105", "category": "Chinese", "price": "$$" }, 
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.3129952489449, 47.65719278959604]
+  } },
+  { "type": "Feature", "properties": { "name": "Café Solstice", "summary": "Cute café, decent atmosphere, nice place to grab coffee and breakfast.", "star": 7, "phoneFormatted": "(206) 675-0850", "address": "4116 University Way NE, Seattle, WA 98105", "category": "Breakfast", "price": "$$" },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [ -122.31292198463606, 47.657383966463314]
+   } },
+  { "type": "Feature", "properties": { "name": "U DupBop Asian Fusion", "summary": "An alright asian fusion restaurant, a little out of the way. Not bad, but there is better nearby.", "star": 6,  "phoneFormatted": "(206) 632-6975", "address": "4124 University Way NE, Seattle, WA 98105", "category": "Chinese", "price": "$$" },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [ -122.31283137114978, 47.65752557872027]
+   } },
+  { "type": "Feature", "properties": { "name": "U:Don", "summary": "great udon, sadly the best seafood within walking distance of UW. Little expensive, but worth it.", "star": 9, "phoneFormatted": "(206) 453-3788", "address": "4515 University Way NE, Seattle, WA 98105", "category": "Chinese", "price": "$$$" },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [ -122.3133002420513, 47.66175687103231]
+   } }
+  
+]
+  }
