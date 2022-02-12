@@ -11,9 +11,15 @@ body {
 }
 
 .rightlist {
-  position: absolute;
-  right: 5px;
-  text-align: right;
+  position: static;
+  right:5px;
+  float: right;
+}
+
+.rating {
+  object-fit: scale-down;
+  width: 70px;
+  height: 70px;
 }
 
 .sidebar {

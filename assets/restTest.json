@@ -36,7 +36,11 @@
    "geometry": {
     "type": "Point",
     "coordinates": [ -122.3133002420513, 47.66175687103231]
+   } },
+   { "type": "Feature", "properties": { "name": "Chipotle Mexican Grill", "summary": "It's Chipotle, if you want a thick burrito you'll like it.", "star": 7,  "phoneFormatted": "(206) 525-2147", "address": "2626 NE 46th St, Seattle, WA 98105", "category": "Mexican", "price": "$" },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [  -122.29869559053884, 47.66190011948781]
    } }
-  
 ]
   }
