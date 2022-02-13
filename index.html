@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Demo: Build a store locator using Mapbox GL JS</title>
+    <title>Restauraunts around UW-Adam's Rankings </title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.js"></script>
     <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.css" rel="stylesheet" />
@@ -143,7 +143,7 @@
                   link.id = `link-${store.properties.id}`;
                   link.innerHTML = `${store.properties.name}`;
                   let righter = document.createElement("a");
-                  righter.innerHTML = store.properties.category + "   price: " + store.properties.price;
+                  righter.innerHTML = "category: " + store.properties.category + "   price: " + store.properties.price;
                   righter.classList.add("rightlist");
                   link.appendChild(righter);
 
