@@ -13,7 +13,7 @@
 <body>
     <div class="sidebar">
         <div class="heading">
-            <h1>Restraunts around UW</h1>
+            <h1>Restaurants around UW</h1>
         </div>
         <div id="listings" class="listings"></div>
     </div>
@@ -143,7 +143,7 @@
                   link.id = `link-${store.properties.id}`;
                   link.innerHTML = `${store.properties.name}`;
                   let righter = document.createElement("a");
-                  righter.innerHTML = "category: " + store.properties.category + "   price: " + store.properties.price;
+                  righter.innerHTML = "category: " + store.properties.category;
                   righter.classList.add("rightlist");
                   link.appendChild(righter);
 
@@ -160,6 +160,11 @@
                   rating.src = "img/"+`${store.properties.star}` + "-star.png";
                   rating.classList.add("rating");
                   details.appendChild(rating);
+
+                  let price = document.createElement("p");
+                  price.innerHTML =  "   price: " + store.properties.price;
+                  price.classList.add("price");
+                  details.appendChild(price);                 
 
 
                   /**

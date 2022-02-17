@@ -22,6 +22,16 @@ body {
   height: 70px;
 }
 
+.price {
+  font: bold;
+  position: static;
+  top:30px;
+  right:5px;
+  float: right;
+}
+
+
+
 .sidebar {
   position: absolute;
   width: 33.3333%;
