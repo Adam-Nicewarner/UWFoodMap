@@ -37,6 +37,11 @@
     "type": "Point",
     "coordinates": [ -122.3133002420513, 47.66175687103231]
    } },
+   { "type": "Feature", "properties": { "name": "Mod Pizza", "summary": "Serves Personal Pizza, a little expensive but good", "star": 7, "phoneFormatted": "(206) 632-7111", "address": "1414 42nd St NE Ste 103-B, Seattle, WA 98105", "category": "Pizza", "price": "$$" },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [  -122.31249006219493, 47.658460822441725]
+   } },
    { "type": "Feature", "properties": { "name": "Chipotle Mexican Grill", "summary": "It's Chipotle, if you want a thick burrito you'll like it.", "star": 7,  "phoneFormatted": "(206) 525-2147", "address": "2626 NE 46th St, Seattle, WA 98105", "category": "Mexican", "price": "$" },
    "geometry": {
     "type": "Point",
@@ -44,3 +49,5 @@
    } }
 ]
   }
+
+ 
